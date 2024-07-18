@@ -1,0 +1,110 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center; /* Center align header content */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em; /* Larger font size */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center align navigation */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em; /* Larger font size for links */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+main {
+    margin-top: 20px;
+    background-color: #fff; /* White background for main content */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed; /* Fixed position at the bottom */
+    width: 100%;
+    bottom: 0;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold; /* Bold labels */
+}
+
+form input[type=text],
+form input[type=email],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Larger font size */
+    margin-top: 5px;
+    transition: border-color 0.3s ease; /* Smooth transition for border */
+}
+
+form textarea {
+    height: 120px; /* Increased height for textarea */
+}
+
+form input[type=text]:focus,
+form input[type=email]:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #4CAF50; /* Highlight border on focus */
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px; /* Larger font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
